@@ -1,0 +1,10 @@
+Os tipos primitivos de variaveis com numeros brutos são:
+byte: suporta de -128 até 127;
+short: soporta de -32.768 até 32.767;
+int: suporta de -2.147.483.648 até 2.147.483.647;
+long: suporta de -9,223,372,036,854,775,808 até 9,223,372,036,854,775,807;
+Os mais usados são as funções int e long.
+
+Os tipos primitivos de variaveis com numeros que podem ser fracionados são:
+double: suporta de -3,4028E+38 até 3,4028E+38
+float: Suporta de -1,7976E+308 até 1,7976E+308
