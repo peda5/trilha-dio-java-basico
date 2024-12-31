@@ -1,15 +1,12 @@
 public class Operadores {
     public static void main(String[] args) {
-       int numero = 5;
-       numero++;
-
-       System.out.println(++numero);
-    
-       numero = 5;
-       numero--;
+       boolean numero = false;
        
-       System.out.println(--numero);
+       System.out.println(!numero);
 
+       boolean texto = true;
+       texto = !texto;
+       System.out.println(texto);
         
     }
 }
