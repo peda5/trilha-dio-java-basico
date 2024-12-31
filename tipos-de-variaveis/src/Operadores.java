@@ -1,16 +1,32 @@
 public class Operadores {
     public static void main(String[] args) {
-  int a,b;
-  a = 6;
-  b = 6;
-//seguindo nessa ordem, 1 vem a condição verdadeira e depois dos ":" vem a condição falsa-
-//- condição verdadeira: condição falsa.
-  String resultado = a==b? "Verdadeiro" : "Falso";
+        //Utilizamos o "equals" nesse caso, para sabermos se o conteúdo(o valor dado a variavel e a nova classe)-
+        //- conferem um com outro;
+        String nome = "Pedro";
+        String nome2 = new String("Pedro");
+       
+        System.out.println(nome.equals(nome2));
+  int numero1 = 1;
+  int numero2 = 2;
+  boolean simNao = numero1 == numero2;
   
-  System.out.println(resultado);
+   System.out.println(" Minha condição é: " + simNao);
+   String resultado = "";
+   if(numero1 < numero2)
+   resultado = "Verdadeiro";
+   System.out.println(resultado);
 
-  int resultado1 = a==b? 1:0;
-System.out.println(resultado1);
+    numero1 = 1;
+    numero2 = 2;
+    simNao = numero1 != numero2;
+    System.out.println(" O numeroUm é diferente ao numeroDois? " + simNao);
+    
+    numero1 = 1;
+    numero2 = 2;
+    simNao = numero1 < numero2;
+    System.out.println(" O numeroUm é menor que o numeroDois? " + simNao);
+    
+
 
   
         
